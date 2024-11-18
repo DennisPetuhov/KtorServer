@@ -27,5 +27,6 @@ fun startServer() {
     }.start(wait = true)
 }
 
+
 @Serializable
 data class MyMessage(val message: String)

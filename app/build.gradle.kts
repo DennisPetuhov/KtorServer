@@ -85,4 +85,9 @@ dependencies {
 //CIO
     implementation(libs.ktor.server.cio)
     implementation(libs.ktor.ktor.serialization.kotlinx.json)
+    // Websockets
+    implementation(libs.ktor.server.websockets)
+
+//    implementation(libs.ktor.client.websockets)
+    implementation(libs.ktor.network)
 }
