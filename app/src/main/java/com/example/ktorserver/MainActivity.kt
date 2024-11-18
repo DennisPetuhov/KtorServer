@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        CoroutineScope(Dispatchers.IO).launch { startServer() }
+        CoroutineScope(Dispatchers.IO).launch { startWebSocket() }
     }
 
 }
